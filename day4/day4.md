@@ -43,3 +43,47 @@ Ví dụ:
 author_id = fields.Many2one('library.author', string='Author')
 book_ids = fields.One2many('library.book', 'author_id', string='Books')
 ```
+
+#### 🔗 Quan hệ giữa các Model trong Odoo
+
+Trong Odoo, quan hệ giữa các model được dùng để **liên kết dữ liệu** và **mô hình hóa nghiệp vụ thực tế**.
+
+---
+
+##### 🔹 Many2one (Nhiều – Một)
+
+- Thể hiện quan hệ **nhiều bản ghi thuộc về một bản ghi khác**
+- Dùng để liên kết model hiện tại với **một model khác**
+- Thường được hiển thị dưới dạng **dropdown** trên giao diện
+
+Ví dụ:
+```python
+author_id = fields.Many2one(
+    'library.author',
+    string='Author'
+)
+```
+📌 Ý nghĩa:
+- Mỗi Book chỉ có một Author
+- Một Author có thể có nhiều Book
+
+##### 🔹 One2many (Một – Nhiều)
+
+- Thể hiện quan hệ một bản ghi liên kết với nhiều bản ghi khác
+
+- Luôn đi kèm với một field Many2one ở model kia
+
+- Không tạo cột mới trong database (dựa vào Many2one)
+
+Ví dụ:
+```
+book_ids = fields.One2many(
+    'library.book',
+    'author_id',
+    string='Books'
+)
+```
+
+📌 Ý nghĩa:
+- Một Author có nhiều Book
+- Quan hệ được xác định thông qua field author_id
