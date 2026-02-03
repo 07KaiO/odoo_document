@@ -20,7 +20,7 @@
     ```
     sudo -u postgres psql
     ```
-    Tạo user
+    - Tạo user
     ```
     CREATE ROLE odoo WITH LOGIN SUPERUSER PASSWORD 'odoo';
     \q
