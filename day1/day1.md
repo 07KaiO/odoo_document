@@ -1,4 +1,4 @@
-# Ngày 1
+# Ngày 1: Setup & Hello Odoo
 - Cài đặt Ubuntu/WSL2, Python, PostgreSQL
     - Chuẩn bị hệ thống
     ```
