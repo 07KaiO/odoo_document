@@ -87,3 +87,91 @@ book_ids = fields.One2many(
 📌 Ý nghĩa:
 - Một Author có nhiều Book
 - Quan hệ được xác định thông qua field author_id
+
+
+CẤU TRÚC THƯ MỤC MODULE `my_library`
+
+```
+my_library/
+├── __init__.py
+├── __manifest__.py
+│
+├── models/
+│   ├── __init__.py
+│   ├── book.py
+│   ├── author.py
+│   └── category.py
+│
+├── views/
+│   ├── book_views.xml
+│   ├── author_views.xml
+│   ├── category_views.xml
+│   └── book_menu.xml
+│
+├── security/
+│   ├── ir.model.access.csv
+│
+├── data/
+│   ├── author_demo.xml
+│   ├── category_demo.xml
+│   └── book_data.xml
+│
+├── controllers/
+    ├── __init__.py
+    └── main.py
+
+```
+
+1. `__init__.py` (ROOT)
+```
+from . import controllers
+from . import models
+
+```
+2. `models/__init__.py`
+```
+from . import book
+from . import author
+from . import category
+```
+3. `__manifest__.py`
+```
+{
+    'name': 'My Library',
+    'version': '1.0',
+    'category': 'Education',
+    'summary': 'Simple Library Management',
+    'description': 'Manage books with auto sample data',
+    'author': 'KaiO',
+    'depends': ['base'],
+    'data': [
+        'security/ir.model.access.csv',
+
+        'views/book_views.xml',
+        'views/book_actions.xml',
+        'views/author_views.xml',
+        'views/category_views.xml',
+        'views/book_menu.xml',
+
+        
+        'data/category_data.xml',
+        'data/author_data.xml',
+        'data/book_data.xml'
+    ],
+    'installable': True,
+    'application': True,
+}
+
+```
+4. `security/ir.model.access.csv`
+```
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_library_book,access_library_book,model_library_book,,1,1,1,1
+access_library_author,access_library_author,model_library_author,,1,1,1,1
+access_library_category,access_library_category,model_library_category,,1,1,1,1
+```
+
+
+## Ket qua
+![ket qua](image/result.png)
