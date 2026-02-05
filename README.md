@@ -1,5 +1,7 @@
 # Odoo document
-
+```
+./odoo-bin -c odoo.conf 
+```
 ## 📖 Mục lục
 
 ### Tuần 1: Nhập Môn & Môi Trường
