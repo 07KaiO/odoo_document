@@ -10,3 +10,5 @@
 
 ### Tuần 2: View & Data Files
 - [Ngày 6:  Actions & Menus](day6/day6.md)
+- [Ngày 7:  Tree & Form View](day7/day7.md)
+- 
