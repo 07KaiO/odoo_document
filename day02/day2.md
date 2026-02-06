@@ -103,6 +103,5 @@ Quy trình bán hàng trong ERP được thực hiện theo các bước tuần 
   - Tổng tiền
   - Thuế
 
-
 ---
 
