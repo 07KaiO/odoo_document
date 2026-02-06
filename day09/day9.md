@@ -215,5 +215,8 @@ data/book_demo.xml
 
 </odoo>
 ```
+
+---
+
 - Result
 ![result](image/day9.png)
