@@ -172,6 +172,7 @@ access_library_author,access_library_author,model_library_author,,1,1,1,1
 access_library_category,access_library_category,model_library_category,,1,1,1,1
 ```
 
+---
 
 ## Ket qua
 ![ket qua](image/result.png)
