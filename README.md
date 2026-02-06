@@ -16,3 +16,4 @@
 - [Ngày 7:  Tree & Form View](day7/day7.md)
 - [Ngày 8:  Search & Filters](day8/day8.md)
 - [Ngày 9:  Data Files](day9/day9.md)
+- [Ngày 10: Tổng kết Tuần 2](day10/day10.md)
