@@ -179,3 +179,8 @@ Ví dụ: Category → Author
 
 ## Lab
 ![result](image/result.png)
+
+---
+
+![serchpanel](image/searchpanel.png)
+- searchpanel phù hợp với cấu trúc cột cho `many2one`
