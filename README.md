@@ -13,4 +13,4 @@
 ### Tuần 2: View & Data Files
 - [Ngày 6:  Actions & Menus](day6/day6.md)
 - [Ngày 7:  Tree & Form View](day7/day7.md)
-- [Ngày 8:  Search & Filters](day7/day7.md)
+- [Ngày 8:  Search & Filters](day8/day8.md)
