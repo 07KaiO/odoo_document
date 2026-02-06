@@ -112,6 +112,7 @@ tree view → form view
 
 </odoo>
 ```
+
 ### 🗂️ Cấu trúc Menu cần tạo
 ```
 📚 My library   (Menu cha)
