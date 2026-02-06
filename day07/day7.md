@@ -118,7 +118,9 @@ Dùng khi form nhiều thông tin
 </notebook>
 ```
 📌 Mỗi <page> = 1 tab
+
 ---
+
 ### 6️⃣ Ví dụ Form view hoàn chỉnh (Library Book)
 ```
 <form string="Sách">
