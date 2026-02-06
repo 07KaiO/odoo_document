@@ -9,6 +9,7 @@
 Bài tập lớn: Xây dựng giao diện quản lý 'Thành viên thư viện' từ A-Z.
 
 ## Result
+CRUD Interface hoàn chỉnh
 ![result](image/result.png)
 
 
