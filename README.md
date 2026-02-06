@@ -17,3 +17,7 @@
 - [Ngày 8:  Search & Filters](day08/day8.md)
 - [Ngày 9:  Data Files](day09/day9.md)
 - [Ngày 10: Tổng kết Tuần 2](day10/day10.md)
+
+### Tuần 3: Business Logic & ORM
+- [Ngày 11:  ORM Methods (1)](day11/day11.md)
+
