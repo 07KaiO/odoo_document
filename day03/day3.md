@@ -52,5 +52,7 @@ Ví dụ:
 ./odoo-bin scaffold my_library custom_addons
 ```
 
+---
+
 ![kết quả](image/cmd.png)
 
