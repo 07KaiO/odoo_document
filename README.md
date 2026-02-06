@@ -20,4 +20,5 @@
 
 ### Tuần 3: Business Logic & ORM
 - [Ngày 11:  ORM Methods (1)](day11/day11.md)
+- [Ngày 12:  ORM Methods (2)](day11/day11.md)
 
