@@ -26,6 +26,9 @@
     CREATE ROLE odoo WITH LOGIN SUPERUSER PASSWORD 'odoo';
     \q
     ```
+
+---
+
 ## one Source Code Odoo 18
 - Tạo thư mục Odoo
     ```
@@ -52,6 +55,7 @@
     ```
     sudo npm install -g less less-plugin-clean-css rtlcss
     ```
+---
 
 ## file cấu hình cho odoo.conf
 ```
